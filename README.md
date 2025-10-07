@@ -4,10 +4,10 @@ This repository contains a **synthetic project management dataset** and a Jupyte
 
 ## Repository Structure
 
-- `data/`
-  - `synthetic_project_data.csv` – Synthetic dataset with 200 simulated projects and 13 fields (see below).
-- `notebooks/`
-  - `analysis.ipynb` – Jupyter notebook containing exploratory data analysis (EDA) and predictive modeling.
+The main files are stored in the root of the repository for simplicity:
+
+- `synthetic_project_data.csv` – Synthetic dataset with 200 simulated projects and 13 fields (see below).
+- `analysis.ipynb` – Jupyter notebook containing exploratory data analysis (EDA) and predictive modeling.
 - `requirements.txt` – List of Python dependencies required to run the notebook.
 
 ## Dataset Description
@@ -49,8 +49,8 @@ The dataset was generated synthetically to mimic common metrics in project manag
 
 3. **Open and run the notebook**:
 
-   Launch Jupyter Notebook or JupyterLab, then open `notebooks/analysis.ipynb`. Execute each cell sequentially to reproduce the analysis.  
-   Alternatively, you can run the notebook from the command line using `jupyter nbconvert --to notebook --execute notebooks/analysis.ipynb`.
+   Launch Jupyter Notebook or JupyterLab, then open `analysis.ipynb` in the repository root. Execute each cell sequentially to reproduce the analysis.  
+   Alternatively, you can run the notebook from the command line using `jupyter nbconvert --to notebook --execute analysis.ipynb`.
 
 ## About the Notebook
 
